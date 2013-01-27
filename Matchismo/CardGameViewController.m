@@ -40,8 +40,8 @@
             [sender setTitle:card.contents forState:UIControlStateSelected];
             self.flipCount++;
         } else {
-            [sender setTitle:@"☹" forState:UIControlStateSelected];
-            self.flipsLabel.text = @"Deck is empty";
+            [sender setTitle:@"X" forState:UIControlStateSelected];
+            self.flipsLabel.text = @"The deck is empty";
         }
     }
 }
