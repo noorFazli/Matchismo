@@ -20,6 +20,7 @@
 		32028CBD16B48A5A007C6094 /* CardGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32028CBC16B48A5A007C6094 /* CardGameViewController.m */; };
 		32203DF616B5362500E7C9BA /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 32203DF516B5362500E7C9BA /* Card.m */; };
 		32203DFB16B536A900E7C9BA /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 32203DFA16B536A900E7C9BA /* Deck.m */; };
+		32203DFE16B542C500E7C9BA /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 32203DFD16B542C500E7C9BA /* PlayingCard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,8 @@
 		32203DF516B5362500E7C9BA /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = Model/Card.m; sourceTree = "<group>"; };
 		32203DF916B536A900E7C9BA /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Deck.h; path = Model/Deck.h; sourceTree = "<group>"; };
 		32203DFA16B536A900E7C9BA /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Deck.m; path = Model/Deck.m; sourceTree = "<group>"; };
+		32203DFC16B542C500E7C9BA /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCard.h; path = Model/PlayingCard.h; sourceTree = "<group>"; };
+		32203DFD16B542C500E7C9BA /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCard.m; path = Model/PlayingCard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +124,8 @@
 				32203DF516B5362500E7C9BA /* Card.m */,
 				32203DF916B536A900E7C9BA /* Deck.h */,
 				32203DFA16B536A900E7C9BA /* Deck.m */,
+				32203DFC16B542C500E7C9BA /* PlayingCard.h */,
+				32203DFD16B542C500E7C9BA /* PlayingCard.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -197,6 +202,7 @@
 				32028CBD16B48A5A007C6094 /* CardGameViewController.m in Sources */,
 				32203DF616B5362500E7C9BA /* Card.m in Sources */,
 				32203DFB16B536A900E7C9BA /* Deck.m in Sources */,
+				32203DFE16B542C500E7C9BA /* PlayingCard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
